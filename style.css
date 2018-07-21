@@ -1,8 +1,7 @@
 .parent{
   display:flex;
   flex-direction:column;
-  border:2px solid #147DEC;
-  background-color:#908A8D;
+  border:2px solid black;
 }
 
 .child1{
@@ -22,8 +21,10 @@
   margin: 3%;
   padding:4%;
   width:80%;
-
-
+  table-layout: fixed;
+}
+td{
+  word-break: break-all;
 }
 img{
   border-radius:50%;
@@ -66,10 +67,12 @@ img{
     margin: 3%;
     padding:3%;
     width:80%;
-
+    table-layout: fixed;
 
   }
-
+  td{
+    word-break: break-all;
+  }
   .child1 img{
     border-radius:50%;
     border: :2px solid green;
@@ -111,10 +114,12 @@ img{
     margin: 3%;
     padding:4%;
     width:20%;
-
+    table-layout: fixed;
 
   }
-
+  td{
+    word-break: break-all;
+  }
   img{
     border-radius:50%;
     border: :2px solid green;
@@ -156,10 +161,12 @@ img{
     margin: 3%;
     padding:4%;
     width:70%;
-
+    table-layout: fixed;
 
   }
-
+  td{
+    word-break: break-all;
+  }
   img{
     border-radius:50%;
     border: :2px solid green;
@@ -174,5 +181,8 @@ img{
 
   .child1 h1,h2,h3,a,p{
    word-wrap: break-word;
+  }
+  .child2 h2{
+    word-wrap: break-word;
   }
 }
