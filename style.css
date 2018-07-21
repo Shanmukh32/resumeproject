@@ -1,7 +1,8 @@
 .parent{
   display:flex;
   flex-direction:column;
-  border:2px solid green;
+  border:2px solid #147DEC;
+  background-color:#908A8D;
 }
 
 .child1{
@@ -16,6 +17,7 @@
 }
 
 .child2{
+  background-color: #F4F05F;
   border:3px solid black;
   margin: 3%;
   padding:4%;
@@ -35,8 +37,10 @@ img{
 
 }
 
+
 .child1 h1,h2,h3,a,p{
  word-wrap: break-word;
+
 }
 
 @media only screen and(min-width:0px) and (max-width:480px)
@@ -57,6 +61,7 @@ img{
   }
 
   .child2{
+    background-color: #F4F05F;
     border:3px solid black;
     margin: 3%;
     padding:3%;
@@ -100,7 +105,9 @@ img{
   }
 
   .child2{
+    background-color: #F4F05F;
     border:3px solid black;
+    text-align: center;
     margin: 3%;
     padding:4%;
     width:20%;
@@ -144,6 +151,7 @@ img{
   }
 
   .child2{
+    background-color: #F4F05F;
     border:3px solid black;
     margin: 3%;
     padding:4%;

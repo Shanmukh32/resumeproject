@@ -1,0 +1,14 @@
+{
+  "details":{
+    "image":"sa.jpg",
+    "name":"Shanmukh",
+    "phoneno":"+91-8505661212",
+    "email":"itc2k20@gmail.com",
+    "Address":"SRKR Engineering College,BHIMAVARAM"
+  },
+
+  "career":{
+     "info":"Career Objectives",
+     "des":"To build a website"
+  }
+}
